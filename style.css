@@ -1,0 +1,233 @@
+html {
+  background-color: rgb(255, 255, 230);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.navbar img {
+  width: 120px;
+  margin: 10px;
+}
+
+.navlink ul {
+  display: flex;
+}
+
+.navlink li {
+  list-style-type: none;
+}
+
+.navlink li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 1.5rem;
+  padding: 50px;
+}
+
+.navlink li a:hover {
+  background-color: grey;
+}
+
+.footnav {
+  background-color: white;
+}
+
+.footnav ul{
+  display: flex;
+  list-style-type: none;
+}
+
+.footnav li a{
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+.footnav li a:hover {
+  background-color: grey;
+}
+
+.navbar {
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+.category img {
+  height: 400px;
+  width: 200px;
+  margin: 20px;
+}
+
+.category {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.catefont {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.catefont:hover {
+  color: brown;
+}
+
+.imgborder {
+  border: 2px solid black;
+}
+
+.centered {
+  text-align: center;
+  margin: 20px;
+}
+
+.breadcrumb {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.small-img img {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  border: 4px solid black;
+}
+
+.bigbook img {
+  width: 350px;
+  height: 450px;
+  border: 4px solid black;
+  margin: 20px;
+}
+
+.bigbook h1 {
+  font-size: 2rem;
+  margin: 10px;
+}
+
+.main {
+  display: flex;
+}
+
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 40%;
+}
+
+.right h4 {
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
+.right button {
+  padding: 20px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 2rem;
+  border-color: lightblue;
+}
+
+.contact {
+  text-align: center;
+  margin: 20px;
+}
+
+form {
+  margin: 20px;
+}
+
+@media (max-width: 960px) {
+  .navlink ul {
+    display: block;
+  }
+
+  .navlink li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .footnav li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  .centered {
+    display: none;
+  }
+
+  .main {
+    display: block;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .bigbook img {
+    width: 250px;
+    height: 350px;
+    border: 4px solid black;
+    margin: 20px 100px;
+  }
+
+  .bigbook h1 {
+    display: none;
+  }
+
+  .small-img img {
+    width: 110px;
+    height: 60px;
+    margin: 12px;
+    border: 4px solid black;
+  }
+
+  .small-img br {
+    display: none;
+  }
+
+  .right h4 {
+    font-size: 1.2rem;
+    margin: 12px;
+    text-align: center;
+  }
+
+  .right button {
+    padding: 10px;
+    margin-left: 180px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 1rem;
+    border-color: lightblue;
+
+  }
+}
